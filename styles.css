@@ -1,0 +1,66 @@
+html {
+    background-color: rgba(60,60,60);
+    height: 100%; /* Ensures the page takes full height */
+    margin: 0;
+}
+
+h1 {
+    cursor: default;
+}
+
+label {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.loginheader {
+    color:  white;
+    font-family: Arial, sans-serif;
+}
+
+#username {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#username:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+}
+
+#password {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#password:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+}
+
+#loginbutton {
+    border-color: blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* Matches full-page height */
+    margin: 0; /* Removes default margins */
+}
+
+#loginform {
+    height: 350px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgba(45,45,45);
+    outline-color : blue;
+    outline: 5px;
+    padding: 20px;
+}
